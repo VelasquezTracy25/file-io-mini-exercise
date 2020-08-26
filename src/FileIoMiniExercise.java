@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileIoMiniExercise {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
         // TODO: define the path to the instructor-names.txt file
         //both of these work:
@@ -25,7 +25,7 @@ public class FileIoMiniExercise {
         }
 
 
-        //intellij recommended adding throws IOException to psvm
+        //intellij recommended adding throws IOException to psvm - not recommended
         System.out.println(names);
 
         // TODO: assign the 'instructors' variable a list of Instructor objects with names matching the list of strings/names from the text file (the Instructor class has a helpful method for this)
